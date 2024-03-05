@@ -41,9 +41,8 @@ public class App {
 
         //Inform user that they lack the required paperwork
         System.out.println("Hello, happy to help you!");
-        System.out.println("...Oh, I'm so sorry.");
-        System.out.println("Please return with the required forms, two forms of identification,\n" + 
-            "an envelope addressed to you, and a $90 dollar fee.");
-
+        System.out.println("...Oh, I'm so sorry. You do not have the required documents");
+        System.out.println("Thank you for wasting everyone's time. We have other people waiting, and you are holding up the line, so please leave.");//peer addition
+        System.out.println("And next time please use your brain before deciding to come here ;)");
     }
 }
