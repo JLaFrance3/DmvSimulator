@@ -39,10 +39,17 @@ public class App {
         //Call user's number
         System.out.println("Calling number " + queue +"!\n");
 
-        //Inform user that they lack the required paperwork
-        System.out.println("Hello, happy to help you!");
-        System.out.println("...Oh, I'm so sorry. You do not have the required documents");
-        System.out.println("Thank you for wasting everyone's time. We have other people waiting, and you are holding up the line, so please leave.");//peer addition
-        System.out.println("And next time please use your brain before deciding to come here ;)\n MWHAHAHAAH!!!!!");
+        //%1 chance they have all required paperwork
+        if((int)(Math.random() * 100) + 1 == 1) {
+            System.out.println("You have all the required paperwork, you are all set!");
+        }
+        else {
+            //Inform user that they lack the required paperwork
+            System.out.println("Hello, happy to help you!");
+            System.out.println("...Oh, I'm so sorry. You do not have the required documents");
+            System.out.println("Thank you for wasting everyone's time. We have other people waiting, and you are holding up the line, so please leave.");//peer addition
+            System.out.println("And next time please use your brain before deciding to come here ;)\n MWHAHAHAAH!!!!!");
+    
+        }
     }
 }
