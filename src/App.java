@@ -43,6 +43,6 @@ public class App {
         System.out.println("Hello, happy to help you!");
         System.out.println("...Oh, I'm so sorry. You do not have the required documents");
         System.out.println("Thank you for wasting everyone's time. We have other people waiting, and you are holding up the line, so please leave.");//peer addition
-        System.out.println("And next time please use your brain before deciding to come here ;)");
+        System.out.println("And next time please use your brain before deciding to come here ;)\n MWHAHAHAAH!!!!!");
     }
 }
